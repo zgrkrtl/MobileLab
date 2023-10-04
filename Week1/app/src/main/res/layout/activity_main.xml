@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:fontFamily="cursive"
+        android:forceHasOverlappingRendering="true"
+        android:rotationX="-323"
+        android:text="MyFirstApp"
+        android:textAlignment="center"
+        android:textColor="#E40000"
+        android:textSize="24dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:fontFamily="cursive"
+        android:forceHasOverlappingRendering="true"
+        android:rotationX="33"
+        android:text="App1"
+        android:textAlignment="center"
+        android:textColor="#EA1010"
+        android:textSize="24dp"
+        android:typeface="monospace"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#FF0000"
+        android:textColorHint="#4CAF50"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:textColorHint="#8AD533" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:allowUndo="true"
+        android:alpha="10"
+        android:text="LOGIN"
+        android:textColorLink="#3F51B5" />
+
+</LinearLayout>
