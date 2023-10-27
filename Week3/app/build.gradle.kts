@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "msku.ceng.madlab.week3"
-    compileSdk = 33
+    namespace = "com.example.week3"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "msku.ceng.madlab.week3"
+        applicationId = "com.example.week3"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -30,8 +30,8 @@ android {
 
 dependencies {
 
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.4.1")
+    implementation("com.google.android.material:material:1.6.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
