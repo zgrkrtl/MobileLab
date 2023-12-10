@@ -1,4 +1,4 @@
-package msku.ceng.madlab.myapplication;
+package com.example.week7;
 
 import org.junit.Test;
 

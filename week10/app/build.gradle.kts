@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "msku.ceng.madlab.myapplication"
+    namespace = "com.example.week7"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "msku.ceng.madlab.myapplication"
-        minSdk = 34
-        targetSdk = 34
+        applicationId = "com.example.week7"
+        minSdk = 24
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -19,10 +19,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
     compileOptions {
